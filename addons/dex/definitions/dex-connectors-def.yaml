@@ -64,6 +64,8 @@ spec:
                         clientSecret: string
                         // +usage=GitHub redirect URI
                         redirectURI: string
+                        // +usage=GitHub host name
+                        hostName: *"github.com" | string
                 }
                 // +usage=LDAP connector
                 ldap?: {
