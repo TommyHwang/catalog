@@ -18,6 +18,8 @@
       sort: 3
     - jsonKey: redirectURI
       sort: 5
+    - jsonKey: hostName
+      sort: 7
 - jsonKey: gitlab
   sort: 5
   uiType: Ignore
